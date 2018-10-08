@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(250, 250, 250);
+}
+h1{
+    color: rgb(172, 59, 78);
+    text-align: center;
+    font-size: 3.5rem;
+}
+h2{
+    color: yellow;
+    font-size: 2rem;
+}
+.navigation{
+width:100%;
+  display: inline-flex;
+  justify-content: center;
+  
+}
+
+input {
+margin:1rem;    
+border: 1pt black solid;
+padding: 0.8rem;
+font-size: 2rem;
+color: black;
+}
+
+
+select{  
+    margin: 1rem;
+    width: 12rem;
+    height: 4rem;
+    border: 1pt solid black;
+    font-size: 1rem;
+    color: black;
+}
+
+
+#adding-button{
+    margin:1rem;    
+    width: 10rem;
+    height: 3.5rem;
+    border: 1pt solid rgb(240, 25, 25);
+    font-size: 2rem;
+    border-radius: 3rem;
+    background: palevioletred;
+    color: rgb(60, 10, 10);
+}
+
+.main{
+    border: 2pt solid rgb(8, 64, 249);
+    margin:auto;
+    width:auto;
+    display: grid;
+    grid-template-areas: 
+    "IncomeDiv ExpenseDiv"
+    "Balance Balance";
+    text-align: center;
+}
+
+.IncomeDiv{
+    grid-area: IncomeDiv;
+    border: 2pt solid rgb(221, 52, 80);
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+
+.ExpenseDiv{
+    grid-area: ExpenseDiv;
+    border: 2pt solid rgb(221, 52, 80);
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.Balance{
+    grid-area: Balance;
+    border: 2pt solid rgb(221, 52, 80);
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 2rem;
+
+}
+#total-income{
+    color: rgb(3, 142, 19);
+    font-weight: bold;
+    font-size: 2rem;
+
+}
+#total-expense{
+    color: rgb(3, 142, 19);
+    font-weight: bold;
+    font-size: 2rem;
+}

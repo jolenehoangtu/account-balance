@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>account balance</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheet.css" />
+
+</head>
+
+<body style="background-color: rgb(26, 26, 26);">
+    <h1>Account Balance</h1>
+    <div class="navigation">
+        <input type="text" id="description" placeholder="Description">
+        <input type="number" id="amount" placeholder="Amount">
+
+        <select id="transaction-type">
+            <option value="income" id="income">Income</option>
+            <option value="expense" id="expense">Expense</option>
+        </select>
+
+        <button type="button" , id="adding-button">Add</button>
+
+    </div>
+
+    <div class="main">
+        <div class="IncomeDiv">
+            <h2>Income</h2>
+            <div id="incomeOutput"> </div>
+            <p id="total-income"> </p>
+
+        </div>
+        <div class="ExpenseDiv">
+            <h2>Expense</h2>
+            <div id="expenseOutput"></div>
+            <p id="total-expense"> </p>
+
+        </div>
+        <div class="Balance">
+            <h2>Balance</h2>
+            <div id="balanceOutput"></div>
+        </div>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
