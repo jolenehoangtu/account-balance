@@ -1,21 +1,17 @@
 # Account Balance Tracker
 
-### 1. Introduction
-Users can add incomes & expenses to the account and can get a balance :smile:
-<!--![Demo video](images/account_balance_tracker.gif)-->
+## 1. Introduction
+A user can add description and amount of his incomes and expenses. Then he can see the balance.
 
 
-### 2. Features
-
-* Create account data
-* Insert the income/expense into account data
-* Sum incomes & expenses
-* Store income/expense data into localstorage
+## 2. Features
+* Create the account structure.
+* Add the income/expense into account storage
+* Add sum for incomes & expenses
+* Save income/expense data into localstorage
 * Display the income & expense data from localstrage
-* Display account balance
+* Display account balance 
 
 
-### 3. Demo
-
-* Account Balance Tracker
-<!--![Demo image](images/account-demo.png)-->
+## 3. Demo
+A gif file as a demo could be added later. 
